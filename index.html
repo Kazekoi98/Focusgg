@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coaching profesional de League of Legends. Mejora tus habilidades y escala en las clasificatorias con sesiones personalizadas.">
+    <title>Coaching League of Legends</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Coaching LoL</div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Mejora tus habilidades en League of Legends</h1>
+        <p>Conviértete en un jugador de élite con nuestro coaching personalizado.</p>
+        <a href="#services" class="cta-button">Comienza Ahora</a>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un equipo de entrenadores experimentados dedicados a ayudarte a alcanzar tu máximo potencial en League of Legends. Desde principiantes hasta jugadores avanzados, nuestro enfoque está diseñado para cada nivel.</p>
+    </section>
+
+    <section id="services">
+        <h2>Servicios</h2>
+        <div class="service">
+            <h3>Análisis de Partidas</h3>
+            <p>Revisión detallada de tus partidas para identificar errores y áreas de mejora.</p>
+        </div>
+        <div class="service">
+            <h3>Entrenamiento Personalizado</h3>
+            <p>Sesiones 1 a 1 adaptadas a tu rol, estilo de juego y metas.</p>
+        </div>
+        <div class="service">
+            <h3>Clases Grupales</h3>
+            <p>Entrena con otros jugadores en sesiones grupales para aprender estrategias y mejorar la comunicación.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonios</h2>
+        <div class="testimonial">
+            <p>"Gracias al coaching, subí de Plata a Diamante en solo dos meses. ¡Increíble experiencia!"</p>
+            <span>- Jugador Satisfecho</span>
+        </div>
+        <div class="testimonial">
+            <p>"Los entrenadores son muy pacientes y profesionales. Aprendí mucho sobre micro y macrojuego."</p>
+            <span>- Usuario Feliz</span>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>¿Listo para comenzar? Contáctanos ahora y agenda tu primera sesión.</p>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Coaching League of Legends. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">Discord</a>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript para interacción básica
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', () => {
+                alert('¡Prepárate para mejorar tus habilidades en League of Legends!');
+            });
+        });
+    </script>
+</body>
